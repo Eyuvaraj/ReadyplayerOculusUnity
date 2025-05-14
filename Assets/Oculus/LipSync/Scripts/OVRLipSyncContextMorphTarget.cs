@@ -84,6 +84,12 @@ public class OVRLipSyncContextMorphTarget : MonoBehaviour
     private OVRLipSyncContextBase lipsyncContext = null;
 
 
+    void Awake()
+    {
+        enabled = false;
+    }
+
+
     /// <summary>
     /// Start this instance.
     /// </summary>
