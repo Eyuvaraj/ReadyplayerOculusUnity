@@ -401,8 +401,8 @@ GameObject:
   m_Component:
   - component: {fileID: 248875787}
   - component: {fileID: 248875792}
-  - component: {fileID: 248875791}
   - component: {fileID: 248875790}
+  - component: {fileID: 248875793}
   - component: {fileID: 248875789}
   - component: {fileID: 248875788}
   m_Layer: 0
@@ -570,21 +570,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &248875791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 248875786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1063d6f127951654fafb9d9dc3e6d6ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button: {fileID: 1206136350}
-  inputField: {fileID: 19194490}
-  audioSource: {fileID: 248875790}
 --- !u!114 &248875792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -600,6 +585,24 @@ MonoBehaviour:
   pickImageButton: {fileID: 215231907}
   animatorController: {fileID: 9100000, guid: 78a8041ad0f66ba42ac6df2424f13e45, type: 2}
   avatarConfig: {fileID: 11400000, guid: 3a3091082589f5649b326e3e9573ab83, type: 2}
+--- !u!114 &248875793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248875786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aea75df012d3e442b2fd2ccc66a18b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subscriptionKey: 2aMXT5pyJYKZSxwUTgsO3ziEQjUA7rKtjnHbGEIkVdk7D4zCUkPnJQQJ99BAACGhslBXJ3w3AAAYACOG6IKl
+  region: centralindia
+  voiceName: en-US-JennyNeural
+  inputField: {fileID: 19194490}
+  speakButton: {fileID: 1206136350}
+  audioSource: {fileID: 248875790}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
